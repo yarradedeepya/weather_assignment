@@ -1,0 +1,83 @@
+
+        <html>
+        <head>
+            <script type="module">
+                import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+                mermaid.initialize({startOnLoad: true});
+            </script>
+        </head>
+        <body>
+            <div class="mermaid">
+                graph LR;
+weather_data --> weather_data_root[root]
+weather_data_root --> weather_data_root_coord[coord]
+weather_data_root_coord --> weather_data_root_coord_lon[lon]
+weather_data_root_coord_lon --> weather_data_root_coord_lon_value[-97.1413]
+weather_data_root_coord --> weather_data_root_coord_lat[lat]
+weather_data_root_coord_lat --> weather_data_root_coord_lat_value[33.2167]
+weather_data_root --> weather_data_root_weather[weather]
+weather_data_root_weather --> weather_data_root_weather_0[0]
+weather_data_root_weather_0 --> weather_data_root_weather_0_id[id]
+weather_data_root_weather_0_id --> weather_data_root_weather_0_id_value[800]
+weather_data_root_weather_0 --> weather_data_root_weather_0_main[main]
+weather_data_root_weather_0_main --> weather_data_root_weather_0_main_value[Clear]
+weather_data_root_weather_0 --> weather_data_root_weather_0_description[description]
+weather_data_root_weather_0_description --> weather_data_root_weather_0_description_value[clear sky]
+weather_data_root_weather_0 --> weather_data_root_weather_0_icon[icon]
+weather_data_root_weather_0_icon --> weather_data_root_weather_0_icon_value[01d]
+weather_data_root --> weather_data_root_base[base]
+weather_data_root_base --> weather_data_root_base_value[stations]
+weather_data_root --> weather_data_root_main[main]
+weather_data_root_main --> weather_data_root_main_temp[temp]
+weather_data_root_main_temp --> weather_data_root_main_temp_value[71.49]
+weather_data_root_main --> weather_data_root_main_feels_like[feels_like]
+weather_data_root_main_feels_like --> weather_data_root_main_feels_like_value[70.56]
+weather_data_root_main --> weather_data_root_main_temp_min[temp_min]
+weather_data_root_main_temp_min --> weather_data_root_main_temp_min_value[68.92]
+weather_data_root_main --> weather_data_root_main_temp_max[temp_max]
+weather_data_root_main_temp_max --> weather_data_root_main_temp_max_value[73.78]
+weather_data_root_main --> weather_data_root_main_pressure[pressure]
+weather_data_root_main_pressure --> weather_data_root_main_pressure_value[1028]
+weather_data_root_main --> weather_data_root_main_humidity[humidity]
+weather_data_root_main_humidity --> weather_data_root_main_humidity_value[47]
+weather_data_root_main --> weather_data_root_main_sea_level[sea_level]
+weather_data_root_main_sea_level --> weather_data_root_main_sea_level_value[1028]
+weather_data_root_main --> weather_data_root_main_grnd_level[grnd_level]
+weather_data_root_main_grnd_level --> weather_data_root_main_grnd_level_value[1005]
+weather_data_root --> weather_data_root_visibility[visibility]
+weather_data_root_visibility --> weather_data_root_visibility_value[10000]
+weather_data_root --> weather_data_root_wind[wind]
+weather_data_root_wind --> weather_data_root_wind_speed[speed]
+weather_data_root_wind_speed --> weather_data_root_wind_speed_value[5.99]
+weather_data_root_wind --> weather_data_root_wind_deg[deg]
+weather_data_root_wind_deg --> weather_data_root_wind_deg_value[111]
+weather_data_root_wind --> weather_data_root_wind_gust[gust]
+weather_data_root_wind_gust --> weather_data_root_wind_gust_value[7]
+weather_data_root --> weather_data_root_clouds[clouds]
+weather_data_root_clouds --> weather_data_root_clouds_all[all]
+weather_data_root_clouds_all --> weather_data_root_clouds_all_value[0]
+weather_data_root --> weather_data_root_dt[dt]
+weather_data_root_dt --> weather_data_root_dt_value[1729440321]
+weather_data_root --> weather_data_root_sys[sys]
+weather_data_root_sys --> weather_data_root_sys_type[type]
+weather_data_root_sys_type --> weather_data_root_sys_type_value[2]
+weather_data_root_sys --> weather_data_root_sys_id[id]
+weather_data_root_sys_id --> weather_data_root_sys_id_value[2093294]
+weather_data_root_sys --> weather_data_root_sys_country[country]
+weather_data_root_sys_country --> weather_data_root_sys_country_value[US]
+weather_data_root_sys --> weather_data_root_sys_sunrise[sunrise]
+weather_data_root_sys_sunrise --> weather_data_root_sys_sunrise_value[1729427829]
+weather_data_root_sys --> weather_data_root_sys_sunset[sunset]
+weather_data_root_sys_sunset --> weather_data_root_sys_sunset_value[1729468142]
+weather_data_root --> weather_data_root_timezone[timezone]
+weather_data_root_timezone --> weather_data_root_timezone_value[-18000]
+weather_data_root --> weather_data_root_id[id]
+weather_data_root_id --> weather_data_root_id_value[4685907]
+weather_data_root --> weather_data_root_name[name]
+weather_data_root_name --> weather_data_root_name_value[Denton]
+weather_data_root --> weather_data_root_cod[cod]
+weather_data_root_cod --> weather_data_root_cod_value[200]
+            </div>
+        </body>
+        </html>
+        
