@@ -50,9 +50,9 @@ The PATH environment variable is a list of directories that the operating system
 
 ## Github Pages
 To setup GitHub pages
-Fork the repo and Add the API keys GEOCODEAPIKEY and OPENWEATHERMAPAPIKEY for the actions in the repository secrets 
-Enable GitHub pages with branch main and folder docs
-Go to the Actions tab in the repository. 
+Fork the repo and Add the API keys GEOCODEAPIKEY and OPENWEATHERMAPAPIKEY for the actions in the repository secrets  
+Enable GitHub pages with branch main and folder docs  
+Go to the Actions tab in the repository.  
 under all workflows in the left panel  go to the python application. Click on run workflow. It will prompt you to enter a zip code as input.  
 Once the pipeline completes, you can view the result at:  
 https://yourusername.github.io/weather_assignment/output.html  
