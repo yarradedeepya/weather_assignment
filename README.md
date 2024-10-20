@@ -49,7 +49,7 @@ output.html will be created with the result diagram
 The PATH environment variable is a list of directories that the operating system searches for executables. To run a command from any location, ensure its directory is included in the PATH. After modifying the PATH, restart your terminal or command prompt for changes to take effect.
 
 ## Github Pages
-To setup GitHub pages
+To setup GitHub pages  
 Fork the repo and Add the API keys GEOCODEAPIKEY and OPENWEATHERMAPAPIKEY for the actions in the repository secrets  
 Enable GitHub pages with branch main and folder docs  
 Go to the Actions tab in the repository.  
