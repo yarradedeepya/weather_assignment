@@ -19,6 +19,7 @@ def get_api_key(api_name: str) -> str:
         api_key=getpass.getpass(f"Please enter your {api_name}: ")
         subprocess.run(['setx', api_name, api_key], check=True)
         print(f"Your {api_name} has been stored in the environment variable.")
+        print("restart the command prompt to use these environment variables")
     return api_key
 
 # Get API keys for OpenWeather and Google Maps
