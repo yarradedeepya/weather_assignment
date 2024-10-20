@@ -28,7 +28,7 @@ output.html file is generated and can be viewed on GitHub pages - https://yarrad
 A wheel file is built and packaged.  
 
 
-## Local Setup
+## Local Setup - Instructions for Microsoft Windows
 You can download the latest wheel file from the dist folder of this repository.
 Once you've downloaded the wheel file, you can install it using pip. Navigate to the directory where the wheel file is located and run the following command:
             pip install weather_assignment-0.1.0-py3-none-any.whl
